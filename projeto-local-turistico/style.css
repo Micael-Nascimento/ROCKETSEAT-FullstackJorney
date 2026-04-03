@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333333;
+    font-family: "Open sans";
+    font-size: 16px;
+    text-align: justify;
+}
+
+.page {
+    padding: 88px 0 0;
+}
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.headline {
+    color: #E1624F;
+    font-weight: bold;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    border-radius: 28px;
+}
+
+.description {
+    text-align: center;
+}
+
+.container .content-title-page .title-page-block h1 {
+    font-size: 36px;
+    padding-top: 8px;
+}
+
+.container .content-title-page .description-image-block {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container .content-title-page .description-image-block .description{
+    padding-top: 24px;
+}
+
+.content-list {
+    padding-bottom: 40px;
+    border-top: 1px solid;
+    border-color: #D9D9D9;
+}
+
+.content-list .title-list-block {
+    padding: 64px 0;
+}
+
+.content-list .title-list-block h2 {
+    padding: 2px 0 8px;
+    font-size: 32px;
+    color: #1E1E1E;
+}
+
+.content-list ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.content-list .card-travel-block .turist-point-name {
+    color: #1E1E1E;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 20px 0 4px;
+}
+
+.content-list .card-travel-block .good-for {
+    font-weight: bold;
+}
+
+.card-travel-block + .card-travel-block {
+    padding-top: 48px;
+}
+
+.final-description-content {
+    padding-top: 40px;
+    border-top: 1px solid;
+    border-color: #D9D9D9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 48px;
+}
+
+.icon {
+    display: inline;
+}
+
+.blue {
+    color: #0C51A7;
+}
+
+.purple {
+    color: #591B98;
+}
+
+.pink {
+    color: #E5245E;
+}
+
+.orange {
+    color: #E95E10;
+}

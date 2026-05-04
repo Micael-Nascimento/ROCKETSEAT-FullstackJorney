@@ -1,0 +1,219 @@
+.presentation {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 120px 0 57px;
+
+    .profile-img-block {
+        justify-content: center;
+
+        .profile-img-content {
+            position: relative;
+
+            img {
+                width: 87.27px;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                border: solid 2px var(--red);
+                padding: 4.36px;
+            }
+
+            .profile-img-icon {
+                position: absolute;
+                top: 60px;
+                right: -8px;
+            }
+        }
+    }
+
+    .text-presentation {
+        margin-top: 56px;
+
+        align-items: center;
+
+        .hello-world {
+            font: var(--subtitle);
+            color: var(--gray-200);
+        }
+
+        .tittle {
+            margin-top: 8px;
+
+            font: var(--title-lg);
+            color: var(--gray-100);
+        }
+
+        .description {
+            margin-top: 20px;
+        }
+    }
+
+    .skill-list {
+        margin-top: 80px;
+
+        justify-content: center;
+
+        .skill {
+            background-color: var(--gray-400);
+            padding: 8px 16px;
+            border-radius: 999px;
+
+            align-items: center;
+        }
+    }
+
+    .double-arrow {
+        margin-top: 94px;
+
+        justify-content: center;
+    }
+}
+
+.projects {
+    background-color: var(--gray-500);
+
+    padding: 72px 0 144px;
+
+    .section-header {
+        align-items: center;
+
+        span {
+            font: var(--subtitle);
+        }
+
+        .section-title {
+            font: var(--title-md);
+            color: var(--gray-100);
+            margin: 8px 0 56px;
+        }
+    }
+
+    .projects-grid {
+        flex-wrap: wrap;
+        gap: 24px;
+
+        .project-card {
+            background-color: var(--gray-400);
+            border-radius: 12px;
+            padding: 12px 12px 0 12px;
+            width: calc(33% - 12px);
+
+            img {
+                display: block;
+                width: 100%;
+                border-radius: 8px;
+            }
+
+            .project-text {
+                margin-top: 20px;
+
+                .project-name {
+                    color: var(--gray-100);
+                }
+
+                .project-description {
+                    margin-top: 8px;
+                    color: var(--gray-200);
+                    padding-bottom: 21px;
+                }
+            }
+        }
+    }
+}
+
+.services {
+    background-color: var(--gray-600);
+    padding: 88px 0 120px;
+
+    .section-header {
+        align-items: center;
+
+        span {
+            font: var(--subtitle);
+        }
+
+        .section-title {
+            margin-top: 8px;
+            font: var(--title-md);
+            color: var(--gray-100);
+        }
+    }
+
+    .services-grid {
+        justify-content: center;
+        margin-top: 56px;
+        gap: 24px;
+
+        .service-card {
+            border: 2px solid var(--gray-500);
+            border-radius: 12px;
+            width: 280px;
+            padding: 20px;
+            justify-content: center;
+
+            .service-text {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.contact {
+    background-image: url(../assets/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 128px 0 200px;
+
+    .contact-text {
+        align-items: center;
+    }
+
+    .contact-text {
+        span {
+            font: var(--subtitle);
+        }
+
+        h2 {
+            margin-top: 8px;
+            font: var(--title-md);
+            color: var(--gray-100);
+        }
+
+        p {
+            margin-top: 8px;
+            font: var(--text-md);
+            color: var(--gray-200);
+        }
+    }
+
+    .contact-buttons-list {
+        margin-top: 48px;
+        align-items: center;
+
+        .contact-button {
+            background-color: var(--gray-400);
+            border-radius: 8px;
+            width: 400px;
+            padding: 20px;
+
+            .button {
+                align-items: center;
+                justify-content: space-between;
+
+                div {
+                    align-items: center;
+                    gap: 12px;
+
+                    span {
+                        font: var(--text-md);
+                        color: var(--gray-200)
+                    }
+                }
+            }
+        }
+    }
+}
